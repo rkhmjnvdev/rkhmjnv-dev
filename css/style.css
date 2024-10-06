@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: #191919;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+width: 1440px;
+margin: 0 auto;
+}
+.about__sect{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.about__text{
+    color: white;
+    font-size: 20px;
+    font-family: "Poppins", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.about__text:hover{
+    transition: all ease 0.3s ;
+    color: #008AAA;
+    font-size: 22px;
+}
+.hero{
+    display: flex;
+
+    align-items: center;
+}
+.hero__text{
+p{
+    font-size: 20px;
+    color: white;
+    margin-left: 130px;
+}
+}
+.hero__scnd__thrd{
+    color: white;
+    font-size: 60px;
+    font-family: "Poppins", system-ui;
+    font-weight: 600;
+    font-style: normal; 
+    margin-left: 130px;
+}
+.hero__frst{
+    font-size: 40px;
+    color: white;
+    font-family: "Poppins", system-ui;
+    font-weight: 600;
+    font-style: normal; 
+    margin-left: 130px;
+    margin-bottom: 60px;
+    margin-top: 100px;
+}
+.photo{
+    border-bottom-left-radius: 200px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.hero__btn{
+    width: 120px;
+    height: 40px;
+    background-color: #008AAA;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin-left: 300px;
+    margin-top: 30px;
+    font-family: "Poppins", system-ui;
+    font-weight: 300;
+}
+.heros__btn{
+    width: 140px;
+    height: 40px;
+    background-color: #008AAA;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin-left: 10px;
+    margin-top: 30px;
+    font-family: "Poppins", system-ui;
+    font-weight: 300;
+}
+.hero__btn:hover{
+    transition: all ease 0.5s;
+    color: #008AAA;
+    background-color: white;
+}
+.heros__btn:hover{
+    transition: all ease 1s;
+    color: #008AAA;
+    background-color: white;
+
+}
+.border__min{
+
+}
